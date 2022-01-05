@@ -181,6 +181,7 @@ h2.title {
 input.btn-primary {
     border: none;
     font-size: 18px;
+    cursor: pointer;
 }
 ::placeholder {
     color: #adadad;
