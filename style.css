@@ -135,6 +135,9 @@ h2.title {
     color: #3e3e3e;
     text-decoration: none;
 }
+.get-in-touch h2 {
+    padding-bottom: 0px;
+}
 .get-in-touch p {
     font-size: 20px;
 }
