@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+.row .col {
+    width: 50%;
+}
+.header .left h1 {
+    font-size: 60px;
+    line-height: 80px;
+    font-family: ;
+}
+
+.header .right {
+    display: flex;
+    justify-content: center;
+}
+.header .right img {
+    max-width: 426px;
+}
