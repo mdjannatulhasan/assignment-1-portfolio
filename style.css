@@ -1,7 +1,10 @@
-* {
+body {
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+}
+section {
+    padding: 70px 20px;
 }
 
 .container {
@@ -38,7 +41,7 @@ p {
     color: #3e3e3e;
 }
 .header .btn-primary {
-    margin-bottom: 10px;
+    margin: 5px 0 10px;
 }
 .btn-primary {
     color: #ffffff;
@@ -48,6 +51,9 @@ p {
     text-decoration: none;
     background-color: #ff5959;
 }
+.btn-primary:hover {
+    background-color: #ff2626;
+}
 
 .header .right {
     display: flex;
@@ -55,4 +61,83 @@ p {
 }
 .header .right img {
     max-width: 426px;
+}
+
+.plans .col {
+    width: 31.5%;
+    border-radius: 26px;
+    padding: 25px 32px 45px;
+}
+.plans .col:not(:last-child) {
+    margin-right: 2.25%;
+}
+h2.title {
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.plans img {
+    max-width: 140px;
+}
+.plans h3 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.mission {
+    background: rgba(79, 157, 166, 0.1);
+}
+.vision {
+    background: rgba(255, 89, 89, 0.1);
+}
+.goal {
+    background: #fff4d6;
+}
+.limitless-dev img,
+.community img {
+    max-width: 400px;
+}
+.limitless-dev .img-container {
+    margin-right: 72px;
+}
+
+.sec-title h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    line-height: 54px;
+    color: #333333;
+}
+
+.sec-body {
+    padding-right: 10%;
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(180deg, #ffad5a, #ff5959);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    margin-top: 40px;
+    background: #0b0d17;
+    text-align: center;
+    padding: 39px 0 46px;
+}
+footer h2 {
+    color: #ffffff;
+    font-size: 36px;
+    font-family: "Lobster", cursive;
+    font-weight: 400;
+    margin: 0;
+}
+.red-text {
+    color: #ff5959;
+}
+footer p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #d9dbe1;
 }
