@@ -27,8 +27,19 @@ section {
     font-family: "Yeseva One", cursive;
 }
 .left-border {
-    padding-left: 13px;
-    border-left: 4px solid #ff5959;
+    padding-left: 15px;
+    position: relative;
+    /* border-left: 4px solid #ff5959; */
+}
+.left-border::after {
+    content: "";
+    position: absolute;
+    height: 75%;
+    width: 0px;
+    border: 2px solid #ff5959;
+    left: 0;
+    top: 16px;
+    border-radius: 100px;
 }
 .orange-text {
     color: #ffad5a;
