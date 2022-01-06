@@ -29,6 +29,7 @@ section {
 .left-border {
     padding-left: 15px;
     position: relative;
+    margin-bottom: 15px;
 }
 .left-border::after {
     content: "";
