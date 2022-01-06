@@ -29,7 +29,6 @@ section {
 .left-border {
     padding-left: 15px;
     position: relative;
-    /* border-left: 4px solid #ff5959; */
 }
 .left-border::after {
     content: "";
