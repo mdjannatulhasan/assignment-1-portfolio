@@ -223,3 +223,38 @@ footer p {
     margin-top: 10px;
     color: #d9dbe1;
 }
+
+@media only screen and (max-width: 769px) {
+    body * {
+        text-align: center;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .row .col {
+        width: 90%;
+        margin: 30px;
+    }
+    .plans .col:not(:last-child) {
+        margin: 20px 0;
+    }
+    .sec-body {
+        padding-right: 0;
+    }
+    .limitless-dev .img-container {
+        margin-right: 0;
+    }
+    .community .row {
+        flex-direction: column-reverse;
+    }
+    .sec-title {
+        margin-top: 40px;
+    }
+    .get-in-touch {
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+    .get-in-touch .title {
+        margin-bottom: 0px;
+    }
+}
