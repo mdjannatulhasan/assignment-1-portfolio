@@ -37,6 +37,7 @@ section {
     height: 75%;
     width: 0px;
     border: 2px solid #ff5959;
+    background-color: #ff5959;
     left: 0;
     top: 16px;
     border-radius: 100px;
@@ -255,6 +256,7 @@ footer p {
         padding-top: 30px;
     }
     .get-in-touch .title {
+        margin-bottom: 0px;
         margin-bottom: 0px;
     }
 }
